@@ -1,0 +1,17 @@
+
+.box {
+    background-color: blue;
+    height: 350px;
+    width: 350px;
+
+    transition-property: background-color, border-radius;
+    transition-duration: 2s, 1.5s;
+    transition-delay: 0.5s;
+
+}
+
+.box:hover { 
+    background-color: hotpink;
+    border-radius: 50%;
+}
+
